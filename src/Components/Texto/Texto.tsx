@@ -1,10 +1,13 @@
+import { StyledCarro, StyledConteudo_Seguro, StyledTexto_Seguro } from "./Texto.styled"
+import Carro from "../../assets/civic-site.png"
+
 export const Texto = () => {
     return(
-        <main class="conteudo-seguro">
+        <StyledConteudo_Seguro>
         <section>
-            <p class="texto-seguro">Com nosso Seguro Automotivo, você pode ter a tranquilidade de saber que seu investimento está protegido contra imprevistos que poderiam comprometer seu valor. Preserve o valor do seu veículo e dirija com confiança sabendo que estamos cuidando dele.</p>
+            <StyledTexto_Seguro>Com nosso Seguro Automotivo, você pode ter a tranquilidade de saber que seu investimento está protegido contra imprevistos que poderiam comprometer seu valor. Preserve o valor do seu veículo e dirija com confiança sabendo que estamos cuidando dele.</StyledTexto_Seguro>
         </section>
-        <img src="img/civic-site.png" alt="imagem site" class="imagem-carro">
-    </main>
+        <StyledCarro src={Carro} alt="Imagem de Civic" />
+    </StyledConteudo_Seguro>
     )
 }
