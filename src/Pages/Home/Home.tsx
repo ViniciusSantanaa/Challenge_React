@@ -1,5 +1,6 @@
 import { Header } from "../../Components/Header/Header";
 import { Main } from "../../Components/Main/Main";
+import { Texto } from "../../Components/Texto/Texto";
 import { Vantagens } from "../../Components/Vantagens/Vantagens";
 
 
@@ -9,6 +10,7 @@ export default function Home() {
             <Header/>
             <Main />
             <Vantagens />
+            <Texto />
         </>
     );
 };
