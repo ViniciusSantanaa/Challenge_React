@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const StyledHeader_Global = styled.div`
+    background-image: none;
+`
+
 export const StyledSeta = styled.nav`
     position: absolute;
     top: 0; 
@@ -25,7 +29,7 @@ export const StyledSeta = styled.nav`
 `
 
 export const StyledGuardian_Global = styled.h1`
-    color: black;
+    color: lightgray;
     font-size: 36px;
     text-align: center;
     position: absolute;

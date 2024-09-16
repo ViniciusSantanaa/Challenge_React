@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledContainerInput = styled.section`
-    background-color: #A9A9A9;
+    background-color: #FFFF;
     width: 445px;
     height: 500px;
     border-radius: 5%;
