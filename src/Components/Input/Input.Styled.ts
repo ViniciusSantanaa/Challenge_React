@@ -7,7 +7,7 @@ export const StyledContainerInput = styled.section`
     border-radius: 5%;
     background-image: none;
     position: fixed;
-    right: 0;
+    right: 50px;
 `
 
 export const StyledContainerConteudo = styled.h1`
