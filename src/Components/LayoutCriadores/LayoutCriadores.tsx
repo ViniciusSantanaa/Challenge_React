@@ -1,7 +1,8 @@
 import { StyledAjuste, StyledDados, StyledDivCriadores, StyledDivImagem, StyledImagemCriadores } from "./LayoutCriadores.styled"
-import Vinicius from '../../assets/imagem.vinicius.jpg'
-import Felipe from '../../assets/imagem.felipafa.jpeg'
-import Pedro from '../../assets/imagem.gemeo.jpeg'
+import Vinicius from '../../assets/imagem.vinicius.jpg';
+import Felipe from '../../assets/imagem.felipafa.jpeg';
+import Pedro from '../../assets/imagem.gemeo.jpeg';
+
 
 export const LayoutCriadores = () => {
     return(

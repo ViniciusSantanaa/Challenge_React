@@ -12,11 +12,11 @@ export const Header = () => {
                         <Link to="/Produto">Sobre o produto</Link>
                     </StyledLink>
                     <StyledLink>
-                        <Link to="">Cr<StyledIA_pequeno>IA</StyledIA_pequeno>dores</Link>
+                        <Link to="/Criadores">Cr<StyledIA_pequeno>IA</StyledIA_pequeno>dores</Link>
                     </StyledLink>
                     <StyledLogin>
                         <StyledLink>
-                            <Link to="">Login</Link>
+                            <Link to="/Login">Login</Link>
                         </StyledLink>
                     </StyledLogin>
                 </StyledNav>
