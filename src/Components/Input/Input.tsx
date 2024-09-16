@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
 import { StyledAjusteLabel, StyledButton, StyledContainerConteudo, StyledContainerInput, StyledDivLabels, StyledForm, StyledLabelCPF, StyledLabelSenha } from './Input.Styled';
 
-type InputProps = {
-    children: React.ReactNode,
-    img: string
-}
  
-export const CadastroCliente: React.FC <InputProps> = ({children, img}) => {
+export const CadastroCliente: React.FC  = () => {
     const [cpf, setCpf] = useState<string>('');
     const [senha, setSenha] = useState<string>('');
     const [error, setError] = useState<string>('');
@@ -41,7 +37,6 @@ export const CadastroCliente: React.FC <InputProps> = ({children, img}) => {
  
     return (
         <StyledContainerInput>
-            <div style={{ backgroundImage: `url(/assets/${img})` }} />
             <StyledContainerConteudo>Cadastrar Cliente</StyledContainerConteudo>
             <StyledForm onSubmit={handleSubmit}>
                 <StyledDivLabels>
