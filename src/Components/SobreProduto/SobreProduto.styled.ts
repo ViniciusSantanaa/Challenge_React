@@ -6,8 +6,8 @@ export const StyledSectionProduto = styled.section`
     margin-left: 130px;
 
     @media (max-width: 430px) {
-        width: 390px;
-        margin-left: 29px;
+        width: 330px;
+        margin-left: 10px;
     }
 
     @media (min-width: 431px) and (max-width: 744px) {
@@ -16,7 +16,7 @@ export const StyledSectionProduto = styled.section`
     }
 
     @media (min-width: 745px) and (max-width: 834px) {
-        width: 721px;
+        width: 650px;
         margin-left: 68px;
     }
 
@@ -30,5 +30,21 @@ export const StyledSobreProduto = styled.p`
     color: #545454;
     font-size: 32px;
     margin-top: 50px;
+
+    @media (max-width: 430px) {
+        font-size: 20px;
+    }
+
+    @media (min-width: 431px) and (max-width: 744px) {
+        font-size: 32px;
+    }
+
+    @media (min-width: 745px) and (max-width: 834px) {
+        font-size: 36px;
+    }
+
+    @media (min-width: 835px) and (max-width: 1024px) {
+        font-size: 40px;
+    }
 `
 
