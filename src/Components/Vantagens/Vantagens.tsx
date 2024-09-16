@@ -11,19 +11,19 @@ export const Vantagens = () => {
         <StyledVantagem>Guard<StyledIA_Vantagens>IA</StyledIA_Vantagens>n e suas vantagens</StyledVantagem>
         <StyledContainer>
             <StyledItem>
-                <Ri24HoursFill size="3rem" color="#6495ED"/>
+                <Ri24HoursFill size="2rem" color="#6495ED"/>
                 <StyledFrase_Icone>Obter assistência a qualquer hora do dia ou da noite</StyledFrase_Icone>
             </StyledItem>
             <StyledItem>
-                <FaBrazilianRealSign  size="3rem" color="#6495ED"/>
+                <FaBrazilianRealSign  size="2rem" color="#6495ED"/>
                 <StyledFrase_Icone>Evitar reparos mais caros no futuro ao resolver problemas menores rapidamente</StyledFrase_Icone>
             </StyledItem>
             <StyledItem>
-                <MdOutlineSpeed size="3rem" color="#6495ED"/>
+                <MdOutlineSpeed size="2rem" color="#6495ED"/>
                 <StyledFrase_Icone>Identificar rapidamente problemas potenciais em seus veículos</StyledFrase_Icone>
             </StyledItem>
             <StyledItem>
-                <FaWrench size="3rem" color="#6495ED"/>
+                <FaWrench size="2rem" color="#6495ED"/>
                 <StyledFrase_Icone>Orientações sobre como realizar manutenção em seu veículo</StyledFrase_Icone>
             </StyledItem>
         </StyledContainer>

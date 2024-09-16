@@ -46,14 +46,14 @@ export const StyledSlogan = styled.h2`
     @media (max-width: 430px) {
         margin-top: 0;
         font-size: 13px;
-        width: 198px;
+        width: 150px;
         height: 80px;
     }
 
     @media (min-width: 431px) and (max-width: 744px) {
         margin-top: 0;
-        font-size: 30px;
-        width: 357px;
+        font-size: 22px;
+        width: 200px;
         height: 156px;
     }
 
@@ -141,9 +141,10 @@ export const StyledIMG = styled.img`
     }
 
     @media (min-width: 431px) and (max-width: 744px) {
-        width: 313.54px;
-        height: 210px;
+        width: 250px;
+        height: auto;
         margin-top: 40px;
+        margin-right: 0;
     }
 
     @media (min-width: 745px) and (max-width: 834px) {

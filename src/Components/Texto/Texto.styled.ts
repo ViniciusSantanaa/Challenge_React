@@ -55,8 +55,8 @@ export const StyledCarro = styled.img`
     }
 
     @media (min-width: 431px) and (max-width: 744px) {
-        width: 350px;
-        height: 281.71px;
+        width: 200px;
+        height: auto;
         margin-top: 75px;
     }
     
