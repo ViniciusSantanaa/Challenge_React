@@ -9,7 +9,7 @@ export const Header = () => {
                 <StyledNav>
                     <StyledGuardIAn>Guard<StyledIA>IA</StyledIA>n</StyledGuardIAn>
                     <StyledLink>
-                        <Link to="">Sobre o produto</Link>
+                        <Link to="/Produto">Sobre o produto</Link>
                     </StyledLink>
                     <StyledLink>
                         <Link to="">Cr<StyledIA_pequeno>IA</StyledIA_pequeno>dores</Link>
