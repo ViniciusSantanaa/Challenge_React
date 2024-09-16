@@ -1,9 +1,12 @@
 import styled from "styled-components";
 
 export const StyledSeta = styled.nav`
-    margin-left: 76.14px;
-    margin-top: 2rem;
-
+    position: absolute;
+    top: 0; 
+    left: 0;    
+    margin: 0;    
+    padding: 1rem; 
+;
     @media (max-width: 430px) {
         
     }
@@ -22,9 +25,15 @@ export const StyledSeta = styled.nav`
 `
 
 export const StyledGuardian_Global = styled.h1`
-    color: #545454;
+    color: black;
     font-size: 36px;
     text-align: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    margin-top: 20px; 
 
     @media (max-width: 430px) {
         font-size: 36px;
