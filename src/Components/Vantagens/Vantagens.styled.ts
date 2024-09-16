@@ -11,16 +11,16 @@ export const StyledFundo = styled.div`
     }
 
     @media (min-width: 431px) and (max-width: 744px) {
-        height: 290px;
+        height: 350px;
         margin-top: 70px;
     }
 
     @media (min-width: 745px) and (max-width: 834px) {
-        height: 290px;
+        height: 400px;
     }
 
     @media (min-width: 835px) and (max-width: 1024px) {
-        height: 353px;
+        height: 400px;
         margin-top: 70px;
     }
 `
@@ -41,8 +41,12 @@ export const StyledVantagem = styled.h2`
         align-items: end;
     }
 
-    @media screen {
-        
+    @media (min-width: 431px) and (max-width: 744px) {
+        font-size: 16px;
+        margin-left: 18px;
+        height: 2rem;
+        display: flex;
+        align-items: end;
     }
 
     @media screen {
@@ -62,8 +66,8 @@ export const StyledIA_Vantagens = styled.strong`
         font-size: 16px;
     }
 
-    @media screen {
-        
+    @media (min-width: 431px) and (max-width: 744px) {
+        font-size: 16px;
     }
 
     @media screen {
@@ -79,15 +83,16 @@ export const StyledContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px;
+    padding: 10px;
 
     @media (max-width: 530px){
         display: inline;
         justify-content: space-around;
     }
 
-    @media screen {
-        
+    @media (min-width: 431px) and (max-width: 744px) {
+        display: inline;
+        justify-content: space-around;
     }
 
     @media screen {
@@ -102,7 +107,7 @@ export const StyledItem = styled.div`
     display: flex;
     align-items: center; 
     width: 45%;
-    margin: 60px 0;
+    margin: 40px 0;
 
     @media (max-width: 430px){
         display: flex;
@@ -115,8 +120,15 @@ export const StyledItem = styled.div`
         }
     }
 
-    @media screen {
-        
+    @media (min-width: 431px) and (max-width: 744px) {
+        display: flex;
+        align-items: center; 
+        margin: 10px 18px;
+
+        .img{
+            width: 30px;
+            height: 30px;
+        }
     }
 
     @media screen {
@@ -137,8 +149,8 @@ export const StyledFrase_Icone = styled.p`
         font-size: 11px;
     }
 
-    @media screen {
-        
+    @media (min-width: 431px) and (max-width: 744px) {
+        font-size: 12px;
     }
 
     @media screen {

@@ -14,7 +14,7 @@ export const StyledNav = styled.nav `
     }
 
     @media (min-width: 431px) and (max-width: 744px) {
-        gap: 75px;
+        gap: 50px;
         font-size: 13px;
     }
 

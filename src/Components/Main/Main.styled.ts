@@ -52,8 +52,8 @@ export const StyledSlogan = styled.h2`
 
     @media (min-width: 431px) and (max-width: 744px) {
         margin-top: 0;
-        font-size: 22px;
-        width: 200px;
+        font-size: 20px;
+        width: 170px;
         height: 156px;
     }
 
@@ -81,7 +81,7 @@ export const StyledContrate = styled.div`
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    margin-left: 247px;
+    margin-left: 50px;
     width: 142px;
     height: 55px;
     font-size: 20px;
@@ -103,18 +103,19 @@ export const StyledContrate = styled.div`
     }
 
     @media (min-width: 745px) and (max-width: 834px) {
-        width: 114px;
+        width: 100px;
         height: 41px;
         border-radius: 10px;
-        margin-left: 120px;
+        margin-left: 50px;
         font-size: 15px;
     }
 
     @media (min-width: 835px) and (max-width: 1024px) {
         margin-top: 0;
-        font-size: 36px;
-        width: 414px;
+        font-size: 25px;
+        width: 150px;
         height: 188px;
+        margin-left: 50px;
     }
 `
 
@@ -148,7 +149,7 @@ export const StyledIMG = styled.img`
     }
 
     @media (min-width: 745px) and (max-width: 834px) {
-        width: 313.54px;
+        width: 300px;
         height: 210px;
         margin-top: 40px;
     }
