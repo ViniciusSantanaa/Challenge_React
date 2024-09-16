@@ -13,6 +13,27 @@ export const StyledSection = styled.section`
     flex-direction: column;
     gap: 0px;
     margin-left: 56px;
+
+    @media (max-width: 430px) {
+        margin-left: 15px;
+        height: 80px;
+    }
+
+    @media (min-width: 431px) and (max-width: 744px) {
+        margin-left: 15px;
+        margin-top: 40px;
+    }
+
+    @media (min-width: 745px) and (max-width: 834px) {
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+
+    @media (min-width: 835px) and (max-width: 1024px) {
+        margin-left: 15px;
+        height: 80px;
+    }
+
 `
 
 export const StyledSlogan = styled.h2`
@@ -21,6 +42,34 @@ export const StyledSlogan = styled.h2`
     font-size: 36px;
     width: 632px;
     height: 130px;
+
+    @media (max-width: 430px) {
+        margin-top: 0;
+        font-size: 13px;
+        width: 198px;
+        height: 80px;
+    }
+
+    @media (min-width: 431px) and (max-width: 744px) {
+        margin-top: 0;
+        font-size: 30px;
+        width: 357px;
+        height: 156px;
+    }
+
+    @media (min-width: 745px) and (max-width: 834px) {
+        margin-top: 0;
+        font-size: 32px;
+        width: 357px;
+        height: 156px;
+    }
+
+    @media (min-width: 835px) and (max-width: 1024px) {
+        margin-top: 0;
+        font-size: 36px;
+        width: 414px;
+        height: 188px;
+    }
 `
 
 export const StyledContrate = styled.div`
@@ -36,6 +85,37 @@ export const StyledContrate = styled.div`
     width: 142px;
     height: 55px;
     font-size: 20px;
+
+    @media (max-width: 430px) {
+        width: 72px;
+        height: 30px;
+        border-radius: 5px;
+        margin-left: 73px;
+        font-size: 11px;
+    }
+
+    @media (min-width: 431px) and (max-width: 744px) {
+        width: 114px;
+        height: 50px;
+        border-radius: 5px;
+        margin-left: 73px;
+        font-size: 14px;
+    }
+
+    @media (min-width: 745px) and (max-width: 834px) {
+        width: 114px;
+        height: 41px;
+        border-radius: 10px;
+        margin-left: 120px;
+        font-size: 15px;
+    }
+
+    @media (min-width: 835px) and (max-width: 1024px) {
+        margin-top: 0;
+        font-size: 36px;
+        width: 414px;
+        height: 188px;
+    }
 `
 
 export const StyledContrateLink = styled.nav`
@@ -51,4 +131,32 @@ export const StyledIMG = styled.img`
     margin-right: 30px;
     margin-top: 155px;
     border-radius: 10px;
+
+    @media (max-width: 430px) {
+        width: 215px;
+        height: 144px;
+        margin-right: 30px;
+        margin-top: 40px;
+        border-radius: 5px;
+    }
+
+    @media (min-width: 431px) and (max-width: 744px) {
+        width: 313.54px;
+        height: 210px;
+        margin-top: 40px;
+    }
+
+    @media (min-width: 745px) and (max-width: 834px) {
+        width: 313.54px;
+        height: 210px;
+        margin-top: 40px;
+    }
+
+    @media (min-width: 835px) and (max-width: 1024px) {
+        width: 400px;
+        height: 267.91px;
+        margin-right: 30px;
+        margin-top: 40px;
+        border-radius: 5px;
+    }
 `
